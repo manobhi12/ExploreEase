@@ -1,0 +1,195 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.header {
+	min-height: 100vh;
+    width:100%;
+    background-color: rgb(152, 189, 223);
+    background-size: cover;
+    background-position: center;
+}
+.header p{
+    color: #fff;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+    background: rgb(9, 25, 55);
+}
+.logo {
+	width: 140px;
+    cursor:pointer;
+}
+.nav-links li  {
+	list-style: none;
+    display:inline-block;
+    margin:10px 32px;
+}
+.nav-links li a {
+	color: #fff;
+	text-decoration: none;
+}
+.register-btn{
+    background: #fff;
+    color:#000;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 18px 30%;
+    white-space: nowrap;
+}
+.nav1 a{
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    font-family: 'Bodoni MT';
+}
+
+.container img {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+.container h3 {
+    font-size: 30px;
+    font-family: 'Bodoni MT';
+}
+.container p {
+    font-size: 20px;
+    font-family: 'Bodoni MT';
+}
+.container a {
+    font-size: 20px;
+    font-family: 'Bodoni MT';
+    color:black;
+}
+.container h4 {
+    font-size: 22px;
+    font-family: 'Bodoni MT';
+    color:black;
+}
+.text-content {
+    width: 60%;
+    padding: 20px;
+    flex: 1;
+    font-family: 'Bodoni MT';
+}
+
+.text-content p {
+    margin-bottom: 10px;
+    font-family: 'Bodoni MT';
+}
+
+.ratings {
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: 'Bodoni MT';
+}
+
+.ratings p:nth-child(1) {
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: 'Bodoni MT';
+}
+
+
+
+
+
+.container h2{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 32px;
+    font-family: 'Bodoni MT';
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container2 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    align-content: center;
+}
+
+.container2 h1 {
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 10px;
+    align-content: center;
+    font-family: 'Bodoni MT';
+}
+
+.container2 h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    align-content: center;
+    font-family: 'Bodoni MT';
+    font-size: 23px;
+}
+.container2 p {
+    text-align: center;
+    margin-bottom: 10px;
+    align-content: center;
+    font-family: 'Bodoni MT';
+    color: rgb(9, 25, 55);
+}

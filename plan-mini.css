@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.header {
+	min-height: 100vh;
+    width:100%;
+    background-color: rgb(152, 189, 223);
+    background-size:auto;
+}
+.header p{
+    color: #fff;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+    background: rgb(9, 25, 55);
+}
+.logo {
+	width: 140px;
+    cursor:pointer;
+}
+.nav-links li  {
+	list-style: none;
+    display:inline-block;
+    margin:10px 30px;
+}
+.nav-links li a {
+	color: #fff;
+	text-decoration: none;
+}
+.register-btn{
+    background: #fff;
+    color:#000;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.container{
+    padding:0 7%;
+    margin-top: -3%;
+}
+.header h1{
+    font-size:4vw;
+    font-weight:500;
+    color:#00113f;
+    text-align: center;
+    padding-top:22%;
+}
+
+
+
+
+/*----------exclusives---------*/
+.sub-title{
+    margin: 50px 0 20px;
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: #333;
+}
+.exclusives{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+.exclusives div img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.exclusives div{
+    position: relative;
+}
+.exlusives div span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #bbeff8; 
+    font-size: 7px;
+}
+.exlusives div span h6{
+    font-size: 7px;
+    font-weight: 10;
+}
+
+/*--------------Trending Places----------------*/
+.trending{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+
+}
+.trending div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.trending h3{
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container1{
+    padding:0 7%;
+    background: rgb(9, 25, 55);
+    padding: 10px;
+    margin-top: 2%;
+    border-radius: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.container1 h1{
+    font-size:1.7vw;
+    font-weight:50;
+    color:#fff;
+    text-align: center;
+    padding-top:1%;
+    font-family: sans-serif;
+    font-family: 'Bodoni MT';
+}
+.container1 h2{
+    font-size:3.2vw;
+    font-weight:50;
+    color:#fff;
+    text-align: center;
+    padding-top:1%;
+    font-family: 'Bodoni MT';
+}

@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.header {
+	min-height: 100vh;
+    width:100%;
+    background-image: url("images/manalipp.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.header p{
+    color: #fff;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+    background: rgb(9, 25, 55);
+}
+.logo {
+	width: 140px;
+    cursor:pointer;
+}
+.nav-links li  {
+	list-style: none;
+    display:inline-block;
+    margin:10px 32px;
+}
+.nav-links li a {
+	color: #fff;
+	text-decoration: none;
+}
+.register-btn{
+    background: #fff;
+    color:#000;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.container{
+    padding:0 7%;
+    margin-top: -3%;
+}
+.header h1{
+    font-size:4vw;
+    font-weight:500;
+    color:#00113f;
+    text-align: center;
+    padding-top:22%;
+}
+.search-bar{
+    background: #fff;
+    width:70%;
+    margin: 30px auto;
+    padding:6px 10px 6px 30px;
+    border-radius: 50px;
+}
+.search-bar form{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search-bar form input{
+    display:block;
+    border:0;
+    outline:none;
+    background: transparent;
+}
+.search-bar form button{
+    background: #88c3ff;
+    width: 55px;
+    height:55px;
+    border-radius: 50%;
+    border:0;
+    outline:none;
+    cursor:pointer;
+}
+.search-bar form label{
+    font-weight: 600;
+}
+.location-input{
+    flex:1;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 18px 30%;
+    white-space: nowrap;
+}
+.nav1 a{
+    font-size: 17px;
+}
+
+
+.search-box{
+    width: 600px;
+    background: #fff;
+    margin: 200px auto 0;
+    border-radius: 5px;
+}
+.row{
+    display:flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+input{
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    color: #333;
+}
+button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+::placeholder{
+    color: #555;
+}
+.result-box ul{
+    border-top: 1px solid #999;
+    padding:15px 10px;
+}
+.result-box ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor:pointer
+}
+.result-box ul li:hover{
+    background: #ffa0a0;
+}
+
+.result-box{
+    max-height: 300px;
+    overflow: scroll;
+}
